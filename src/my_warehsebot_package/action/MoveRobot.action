@@ -1,0 +1,11 @@
+# Request
+int32 starting_pose
+int32 starting_velo
+---
+# Action
+bool is_finished
+---
+# Feedback
+int32 current_pose
+int32 current_velo
+

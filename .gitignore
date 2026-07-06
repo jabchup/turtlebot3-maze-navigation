@@ -1,0 +1,20 @@
+# Catkin build artifacts
+build/
+devel/
+install/
+.catkin_workspace
+
+# Python
+*.pyc
+__pycache__/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
