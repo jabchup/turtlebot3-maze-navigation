@@ -20,6 +20,7 @@ This is the 3D virtual environment where the robot explores and learns the maze 
 
 ### RViz Visualization - Navigation & Mapping
 This shows what the robot "sees" and understands. The dark black areas are walls (obstacles), the pink area is free space where the robot can move, and the colored dots show the robot's sensor data. The red squirmy line with green circle is the robot's position and planned navigation path.
+
 **Note:** If the robot's position appears misaligned with the map, use the 2D Pose Estimate tool to manually correct its location.
 
 ![RViz Navigation View](docs/images/rviz_navigation.png)
