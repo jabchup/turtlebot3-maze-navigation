@@ -14,12 +14,13 @@ A ROS-based autonomous navigation system for TurtleBot3 robots in simulated maze
 ## Screenshots
 
 ### Gazebo Simulation - The Maze World
-This is the 3D virtual environment where the robot explores and learns the maze layout. The white walls and gray obstacles are detected by the robot's laser scanner. The blue line shows the planned path the robot will take.
+This is the 3D virtual environment where the robot explores and learns the maze layout. The white walls and gray obstacles are detected by the robot's laser scanner. The different line colours represent different axis with red, green and blue indicating x-axis, y-axis and z-axis respectively.
 
 ![Gazebo Maze World](docs/images/maze_world.png)
 
 ### RViz Visualization - Navigation & Mapping
-This shows what the robot "sees" and understands. The dark black areas are walls (obstacles), the pink area is free space where the robot can move, and the colored dots show the robot's sensor data. The red line with green circle is the robot's position and planned navigation path.
+This shows what the robot "sees" and understands. The dark black areas are walls (obstacles), the pink area is free space where the robot can move, and the colored dots show the robot's sensor data. The red squirmy line with green circle is the robot's position and planned navigation path.
+**Note:** If the robot's position appears misaligned with the map, use the 2D Pose Estimate tool to manually correct its location.
 
 ![RViz Navigation View](docs/images/rviz_navigation.png)
 
@@ -245,7 +246,5 @@ For questions or issues, please open an issue on GitHub or contact the repositor
 MIT License - See LICENSE file for details
 
 ---
-
-**Built for:** Singapore Institute of Technology (SIT) - Autonomous Robotics Project
 
 **Last Updated:** July 2026
